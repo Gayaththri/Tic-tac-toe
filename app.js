@@ -9,7 +9,7 @@ function createBoard() {
     const cellElement = document.createElement("div");
     cellElement.classList.add("square");
     const circleElement = document.createElement("div");
-    circleElement.classList.add("circle");
+    circleElement.classList.add("cross");
     cellElement.append(circleElement);
     gameBoard.append(cellElement);
   });
